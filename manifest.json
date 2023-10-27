@@ -1,0 +1,14 @@
+{
+    "name" : "api call" ,
+    "version": "0.0.1",
+    "manifest_version" :2,
+
+    "browser_action": {
+        "default_popup":"apiCaller.html",
+        "default_icon":"logo.png"
+    },
+    "icons":{
+       "128" : "logo.png"
+    },
+    "permission" : ["activeTab"]
+}
